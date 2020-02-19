@@ -2,7 +2,7 @@ FROM circleci/php:7.4.2-apache-node-browsers
 
 RUN sudo apt-get update; \
     sudo apt-get -y install \
-    mysql-client \
+    default-mysql-client \
     libxml2-dev \
     libcurl3-dev \
     libpng-dev \
